@@ -579,7 +579,7 @@ The AEM API surface is under constant revision to identify APIs for which usage 
 
 In many cases, these APIs are deprecated using the standard Java *@Deprecated* annotation and, as such, as identified by `squid:CallToDeprecatedMethod`. 
 
-However, there are cases where an an API is deprecated in the context of AEM but may not be deprecated in other contexts. This rule identifies this second class.
+A second class of deprecation identifies non-Adobe API's whose use is discouraged in AEM, and thus considered deprecated by Cloud Manager. These API's may not be marked as deprecated in the providing APIs.
 
 ## OakPAL Content Rules {#oakpal-rules}
 
